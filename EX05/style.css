@@ -1,1 +1,85 @@
+body{
+    color: #1b1818;
+    font-size: 18px  ;
+     /* Kiểu cho phần thân của trang web */
+ }
 
+ .container{
+     background-color: rgb(224, 179, 196);
+     margin-top: -19px;
+     margin-bottom: -19px;
+     width: 70%;
+     /* Kiểu cho khối .container */
+ }
+
+ ul{
+     color:rgb(79, 79, 158)
+     
+     /* Kiểu cho danh sách chưa sắp xếp */
+ }
+
+ header{
+     background-color: rgb(93, 177, 149) ;
+     width: 70%;
+     /* Kiểu cho phần header của trang web */
+ }
+
+ header h2{
+     color :rgb(85, 15, 170)
+     /* Kiểu cho các liên kết trong phần header */
+ }
+
+ header p{
+     background-color: rgb(255, 168, 168);
+     display: inline-block;           
+     padding: 8px 80px;          
+     /* Kiểu cho các mục danh sách trong phần header */
+ }
+ header li + li{
+                 border-left: 1px solid #000;       
+ }
+ header #branding{
+     background-color: antiquewhite;
+     /* Kiểu cho phần header có id="branding" */
+ }
+
+
+ header #branding h1{
+     background-color: rgb(95, 197, 245);
+     /* Kiểu cho tiêu đề h1 trong phần header */
+ }
+
+ header nav{
+     background-color: antiquewhite;
+     /* Kiểu cho phần danh sách liên kết chính trong phần header */
+ }
+
+ header .highlight, header .current a{
+     background-color: rgb(174, 134, 226);
+     /* Kiểu cho các mục trong phần danh sách chính có class "highlight" hoặc các liên kết đang được truy cập */
+ }
+
+ header a:hover{
+     background-color: rgb(177, 219, 97);
+     /* Kiểu cho các liên kết trong phần header khi rê chuột vào */
+ }
+
+ footer{
+     background-color: rgb(47, 212, 144);
+     margin-bottom: -24px;
+     /* Kiểu cho phần chân trang của trang web */
+ }
+ p{
+    color: crimson;
+ }
+ img{
+    width: 60vw;
+ }
+ .thongtin{
+    background-color: rgb(224, 179, 196);
+    width: 70%;
+ }
+ .dichvu{
+    background-color: rgb(224, 179, 196);
+    width: 70%;
+ }
