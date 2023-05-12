@@ -1,1 +1,154 @@
-
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button_1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .dark {
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  header #branding {
+    float: left;
+  }
+  
+  header #branding h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header .highlight,
+  header .current a {
+    color: #e8491d;
+  }
+  
+  header a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Showcase */
+  #showcase {
+    background: url('https://example.com/images/showcase.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  #showcase h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  #showcase p {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  
+  /* Newsletter */
+  #newsletter {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #newsletter h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  #newsletter form {
+    margin-top: 20px;
+  }
+  
+  #newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  #newsletter input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e8491d;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Boxes */
+  #boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+  }
+  
+  #boxes .box {
+    flex: 1 1 33%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #boxes .box img {
+    max-width: 100%;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
