@@ -1,1 +1,167 @@
+body{
+  font-family: Arial, sans-serif;
+}
 
+/* Global */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.button_1{
+  background-color: #3366cc;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dark{
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Header **/
+header{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-bottom: #000 3px solid;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header li{
+  display: inline-block;
+  padding: 10px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav{
+  float: right;
+}
+
+header .highlight, header .current a{
+  color: #fff;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* Showcase */
+#showcase{
+  background-image: url('path/to/image.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+#showcase h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#showcase p{
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+/* Newsletter */
+#newsletter{
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#newsletter h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#newsletter form {
+  display: inline-block;
+}
+
+#newsletter input[type="email"]{
+  padding: 10px;
+  width: 300px;
+  border: none;
+  margin-right: 5px;
+}
+
+#newsletter input[type="submit"]{
+  padding: 10px 20px;
+  background-color: #3366cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Boxes */
+#boxes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#boxes .box{
+  background-color: #fff;
+  padding: 20px;
+  border: #ccc 1px solid;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px);
+}
+
+#boxes .box img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 100%;
+  padding: 10px;
+  border: #ccc 1px solid;
+  margin-bottom: 10px;
+}
+
+/* Main-col */
+article#main-col{
+  padding: 20px;
+  background-color: #fff;
+}
+
+footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
