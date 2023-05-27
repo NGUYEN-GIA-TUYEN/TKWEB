@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chuyển đổi sự hiển thị của đoạn văn</title>
+    <script>
+        function toggleVisibility() {
+        var paragraph = document.getElementById("myParagraph");
+        if (paragraph.style.display === "none") {
+            paragraph.style.display = "block";
+        } else {
+            paragraph.style.display = "none";
+        }
+        }
+    </script>
+  </head>
+  <body>
+    <h1>Chuyển đổi sự hiển thị của đoạn văn</h1>
+    <button onclick="toggleVisibility()">Nhấp để ẩn/hiện đoạn văn</button>
+    <p id="myParagraph">Đây là đoạn văn cần ẩn/hiện</p>
+  </body>
+</html>
