@@ -1,9 +1,9 @@
 function checkNumber(num) {
-  if (num % 2 == 0) {
-    return "Chẵn";
-  } else {
-    return "Lẻ";
-  }
+if (num % 2 == 0) {
+return "Chẵn";
+} else {
+return "Lẻ";
+}
 }
 
 // Ví dụ sử dụng
